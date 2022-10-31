@@ -72,7 +72,7 @@ void loop() {
   // Random jumble of code where i was trying to get all pixels to show same colour when not doing "theaterChaseRainbow"
   // Jewels seem to be a bit weird where sometimes three pixels out of 7 show same colour but others are random??
   // was playing with all on and all off. Dont copy me. 
-  if (NUMOFPIXELS > 10) {colorWipe(strip.Color(255, 0, 0), 50); }
+  if (numPixels > 10) {colorWipe(strip.Color(255, 0, 0), 50); }
   else {
     for (int i=0; i<strip.numPixels(); i++){
       strip.setPixelColor(i,0);
